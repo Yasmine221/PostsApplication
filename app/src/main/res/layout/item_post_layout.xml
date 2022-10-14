@@ -5,7 +5,7 @@
     android:layout_marginBottom="@dimen/_7sdp"
     app:cardCornerRadius="@dimen/_14sdp"
     android:layout_margin="@dimen/_4sdp"
-    android:backgroundTint="#C7B198"
+    android:backgroundTint="#8C887D"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             tools:text="81737494995"
             android:textSize="@dimen/_15ssp"
-            android:textStyle="bold"
+            android:textStyle="italic"
             android:fontFamily="sans-serif"/>
 
         <com.google.android.material.textview.MaterialTextView
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             tools:text="djjsjsjjs jhdhdhhdhd"
             android:textSize="@dimen/_18ssp"
-            android:textStyle="italic"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:fontFamily="sans-serif"/>
 

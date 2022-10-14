@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/posts_background3"
     tools:context=".PostsDetailsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/post_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="81737494995"
+        android:textColor="#DCDCDC"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/post_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="81737494995"
+        android:textColor="#DCDCDC"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="djjsjsjjs jhdhdhhdhd"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        android:textColor="#8C887D"
+        android:fontFamily="sans-serif-medium"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/post_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_8sdp"
+        tools:text="djjsjsjjs jhdhdhhdhd rejkgjrjg hbtjkhjkjhdfcujdhj yudyhdhshdherdh yreyhdhdrfhf"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="#8C887D"
+        android:fontFamily="sans-serif-medium"/>
+
+
+
+
+
+</LinearLayout>

@@ -9,12 +9,13 @@ import android.widget.ImageView;
 
 public class SplashActivity extends AppCompatActivity {
 
-    ImageView imageView;
+ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
 
         imageView = findViewById(R.id.splash_background);
 
@@ -28,8 +29,5 @@ public class SplashActivity extends AppCompatActivity {
 
             }
         },3000);
-
-
-
     }
-}
+    }
